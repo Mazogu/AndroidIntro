@@ -9,10 +9,13 @@ import java.util.*;
 public class FirstDayCoding {
 
     public static void main(String[] args) {
-        System.out.println(FirstDayCoding.palandrome("tv"));
+        System.out.println(palandrome("tv"));
+        System.out.println(palandrome("racecar"));
         System.out.print("\n");
         String[] list = new String[]{"Party","Q","Q","Q","Happy","Party"};
         duplicate(new ArrayList(Arrays.asList(list)));
+        String[] list2 = new String[]{"A","B","C"};
+        duplicate(new ArrayList<String>(Arrays.asList(list2)));
         System.out.print("\n");
         fizzbuzz();
 
